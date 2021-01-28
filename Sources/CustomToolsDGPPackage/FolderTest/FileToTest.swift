@@ -6,3 +6,17 @@
 //
 
 import Foundation
+
+
+public class FileToTest {
+    
+    
+    init() {
+        
+    }
+    
+    public func printTestText() {
+        print("TEST SUCCESS!!!")
+    
+    
+}
