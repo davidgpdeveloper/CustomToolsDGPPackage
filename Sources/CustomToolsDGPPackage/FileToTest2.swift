@@ -14,7 +14,7 @@ import Foundation
 public class FileToTest2 {
     
     
-    init() {
+    public init() {
         
     }
     
