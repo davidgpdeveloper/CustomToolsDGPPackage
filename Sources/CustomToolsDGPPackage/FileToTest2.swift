@@ -8,7 +8,10 @@
 import Foundation
 
 
-public class FileToTest {
+import Foundation
+
+
+public class FileToTest2 {
     
     
     init() {
@@ -16,7 +19,7 @@ public class FileToTest {
     }
     
     public func printTestText() {
-        print("TEST SUCCESS!!!")
+        print("TEST 2 SUCCESS!!!")
     }
     
 }
