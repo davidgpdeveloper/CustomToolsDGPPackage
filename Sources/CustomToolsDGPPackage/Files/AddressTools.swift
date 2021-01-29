@@ -7,9 +7,6 @@
 //
 
 
-#if canImport(UIKit)
-import UIKit
-#endif
 import MapKit
 
 
@@ -53,9 +50,7 @@ public class AddressTools {
                 completion(false)
                 return
             }
-            #if canImport(UIKit)
             UIApplication.shared.open(address)
-            #endif
             completion(true)
             
             break
@@ -68,9 +63,7 @@ public class AddressTools {
                     let query = "?ll=\(location!.latitude),\(location!.longitude)"
                     let path = "http://maps.apple.com/" + query
                     if let url = URL(string: path) {
-                        #if canImport(UIKit)
                         UIApplication.shared.open(url)
-                        #endif
                         completion(true)
                         
                     } else {
